@@ -1,0 +1,156 @@
+.final-page{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: none;
+    overflow: hidden;
+}
+
+.final-page h1{
+    color: white;
+    top: 20%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.image-header-animate {
+  animation: moveUp 2s ease-in-out forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.bg-image {
+    width: 500px; /* Set the width to 500px */
+    height: 300px; /* Set the height to 300px */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background-image: url("/src/assets/balloon.png");
+    background-repeat: no-repeat;
+}
+.bg-image:hover {
+    opacity: 0.8;
+}
+
+.bg-image-animate {
+    animation: moveUp 2s ease-in-out forwards;
+}
+
+.final-page header {
+    transition: opacity 0.1s ease-in-out; /* Add a transition effect to the header */
+}
+
+.final-page header.hidden {
+    opacity: 0; /* Set the opacity to 0 when the header is hidden */
+}
+
+.hidden {
+    display: none;
+}
+header h1 {
+  text-align: center;
+}
+.button-container {
+    display: block;
+}
+.button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #3e8e41;
+}
+
+#btn2 {
+    transition: opacity 0s ease-in-out;
+}
+
+#btn2:hover {
+    opacity: 0;
+}
+
+.new-image {
+    background-image: url('/src/assets/heart.png'); /* updated URL */
+    background-size: cover; /* add this to scale the image */
+    width: 300px; /* increased width */
+    height: 300px; /* increased height */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* For screens with a maximum width of 480px (mobile devices and smaller) */
+@media only screen and (max-width: 480px) {
+    .container {
+      height: 100vh; /* make the container take up the full height of the viewport */
+      display: flex; /* add display: flex to center the contents */
+      flex-direction: column; /* add flex-direction: column to center the contents vertically */
+      align-items: center; /* add align-items: center to center the contents horizontally */
+      justify-content: center; /* add justify-content: center to center the contents vertically */
+    }
+    .bg-image {
+      width: 250px; /* reduce the width to fit the smaller screen */
+      height: 150px; /* reduce the height to fit the smaller screen */
+      margin: 0 auto; /* add margin: 0 auto to center the image horizontally */
+    }
+    .new-image {
+      width: 150px; /* reduce the width to fit the smaller screen */
+      height: 150px; /* reduce the height to fit the smaller screen */
+    }
+    .final-page h1 {
+      font-size: 18px; /* reduce the font size to fit the smaller screen */
+      text-align: center; /* add text-align: center to center the header text */
+    }
+    #btn2 {
+        transition: opacity 0.5s ease-in-out; /* Update the transition duration to 0.5s */
+      }
+      
+      #btn2:hover {
+        opacity: 0;
+      }
+      
+      #btn2.animate {
+        animation: fadeOut 0.5s ease-in-out forwards; /* Update the animation duration to 0.5s */
+      }
+      
+      @keyframes fadeOut {
+        0% {
+          opacity: 1; /* Update the starting opacity to 1 */
+        }
+        100% {
+          opacity: 0;
+        }
+      }    
+  }

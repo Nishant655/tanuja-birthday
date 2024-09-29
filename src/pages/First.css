@@ -1,0 +1,106 @@
+/* First.css */
+.first-body{
+  background-image: url('/src/assets/bg2.jpg');
+  background-size: cover; /* Add this line to scale the background image */
+  background-position: center; /* Add this line to center the background image */
+}
+.first-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    top: 20%;
+    color: #000;
+  }
+  
+  .content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .start-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+  }
+
+  /* Media queries for different screen sizes */
+
+/* For screens with a maximum width of 1024px */
+@media only screen and (max-width: 1024px) {
+  .first-page {
+      height: 100vh; /* Reduce height to accommodate smaller screens */
+  }
+  .header {
+      font-size: 28px; /* Reduce font size for smaller screens */
+  }
+  .start-button {
+      padding: 8px 16px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .first-page {
+      height: 100vh; /* Reduce height further for smaller screens */
+  }
+  .header {
+      font-size: 24px; /* Reduce font size further for smaller screens */
+  }
+  .start-button {
+      padding: 6px 12px; /* Reduce padding further for smaller screens */
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+  .first-page {
+      height: 100vh; /* Reduce height further for smaller screens */
+  }
+  .header {
+      font-size: 18px; /* Reduce font size further for smaller screens */
+  }
+  .start-button {
+      padding: 4px 8px; /* Reduce padding further for smaller screens */
+  }
+}
+
+/* For screens with a maximum width of 380px */
+@media only screen and (max-width: 380px) {
+  .first-body{
+    background-image: url('/src/assets/bg2.jpg');
+    background-size: cover;
+  }
+  .first-page {
+      height: 100vh; /* Reduce height further for smaller screens */
+  }
+  .header {
+      font-size: 14px; /* Reduce font size further for smaller screens */
+  }
+  .start-button {
+      padding: 2px 4px; /* Reduce padding further for smaller screens */
+  }
+}
