@@ -19,6 +19,22 @@ const Main = () => {
           all magic. I'm so lucky to know you, and even luckier to celebrate another year of your incredible journey.
           Here's to more laughter, more love, and more unforgettable moments together. Have the best birthday ever🎂✨️🎉❤️!"
         </p>
+        <p>
+Happy Birthday, Tanuja! 🎉
+
+On your special day, I wish you all the happiness and joy that life has to offer. You bring so much positivity and warmth into the lives of those around you, and I hope this year brings even more love, success, and beautiful memories for you. May your heart always be filled with laughter, your dreams come true, and your path be filled with sunshine and peace.
+<br /><br />
+"Tere honthon ki muskaan kabhi kam na ho,<br />
+Tere khushiyon ka safar kabhi tham na ho,<br />
+Zindagi ki har subah itni pyari ho,<br />
+Ki kabhi bhi koi shaam gham na ho."<br />
+<br />
+"Zindagi ki raah me hamesha khilte rahe phool,<br />
+Har khushi ho teri saath, sab door ho jaayein gham ke jhool,<br />
+Tera har din ho rosni se roshan,<br />
+Yeh dua hai meri, Tanuja, tu rahe sada khushiyon mein ghul."<br />
+
+Have a fantastic birthday filled with love and laughter, Tanuja! 🌹💖</p>
       </div>
 
       <div className="section2">

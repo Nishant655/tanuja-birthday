@@ -4,10 +4,11 @@ import './First.css';
 
 function First() {
   return (
-    <body className='first-body'>
+    <div className='first-body'>
     <div className="first-page">
       <div className="header">
-        <h1>Happy Birthday!</h1>
+        <h1>Happy Birthday! <br />
+        Tanujaa</h1>
       </div>
       <div className="content">
         <p>Welcome to the webpage designed specially for you!!!
@@ -25,7 +26,7 @@ function First() {
       </div>
     </div>
     
-    </body>
+    </div>
   );
 }
 

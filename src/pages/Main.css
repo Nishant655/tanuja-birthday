@@ -1,10 +1,7 @@
 
 /* Ensure html and body elements allow scrolling */
 html, body {
-  background-image: url('/src/assets/bg1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: black;
   height: auto; /* Allow the body to grow based on content */
   min-height: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -14,6 +11,10 @@ html, body {
 }
 
 .main-container {
+  background-image: url('/src/assets/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100%; /* Allow the container to grow based on its content */
   overflow-y: auto; /* Ensure vertical scrolling is enabled */
   display: flex;
@@ -48,7 +49,7 @@ html, body {
 
 .section1 p {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -79,7 +80,7 @@ html, body {
 
 .section2 p {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -109,7 +110,7 @@ html, body {
 
 .section3 p {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }

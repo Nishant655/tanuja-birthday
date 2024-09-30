@@ -2,6 +2,7 @@
 .LastPageContainer {
   height: 100%; /* make the div take up the full height of the viewport */
   display: flex; /* center the content vertically and horizontally */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif; /* add a font family for the text */
@@ -17,7 +18,11 @@
   margin: 0 auto; /* add this to center the paragraph horizontally */
   width: 80%; /* you can adjust the width to your liking */
 }
-
+.audio {
+  width: 80%;
+  margin: 0 auto; /* add this to center the element horizontally */
+  text-align: center; /* add this to center the contents horizontally */
+}
 /* Audio Player Styles */
 .audio-player {
   margin: 20px auto;

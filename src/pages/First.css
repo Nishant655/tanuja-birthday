@@ -21,11 +21,13 @@
   .header h1 {
     top: 20%;
     color: #000;
+    text-align: center;
   }
   
   .content {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 20px;
   }
   
   .start-button {
@@ -42,7 +44,7 @@
   }
   
   .footer {
-    font-size: 12px;
+    font-size: 16px;
     color: #666;
     margin-top: 20px;
   }

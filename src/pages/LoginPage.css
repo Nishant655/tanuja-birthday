@@ -3,7 +3,7 @@
 .login-page {
   background-color: rgba(0, 0, 0, 0.2);
   /* Add a dark background color with low opacity */
-  background-image: url('/src/assets/bg4.jpg');
+  background-image: url('/src/assets/bg3.png');
   /* Add this line */
   background-size: 100% 100%;
   /* Cover the entire background */
@@ -28,12 +28,12 @@ form {
   justify-content: center;
   padding: 20px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
   border: 1px solid black;
   border-radius: 50px;
-  background-color: #ccc;
+  background-color: wheat;
   /* Change to transparent */
 
 }
@@ -124,8 +124,8 @@ form {
 @media only screen and (max-width: 768px) {
 
   .login-container {
-    top: 30%;
-    left: 75%;
+    top: 70%;
+    left: 55%;
   }
 
   input[type="text"],
@@ -153,10 +153,8 @@ form {
   .login-container {
     position: relative;
     /* Change to relative positioning */
-    margin-top: 20;
-    /* Remove top positioning */
-    margin-left: 50px;
-    left: 0;
+    top: 35%;
+    left: 5%;
     /* Remove left positioning */
     transform: none;
     /* Remove transform */
@@ -210,14 +208,14 @@ form {
 
 
   .login-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     position: relative;
-    margin-top: 20px;
-    /* Add margin to center the container */
-    margin-left: 20px;
+   top: 40%;
     width: 80%;
     /* Set the width to 90% of the screen */
     background-color: transparent;
-    padding: 20px;
     /* Add padding for better layout */
   }
 
