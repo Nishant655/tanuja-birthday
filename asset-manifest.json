@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b1be13d.css",
-    "main.js": "/static/js/main.1f12c970.js",
-    "static/media/mashup new.mp4": "/static/media/mashup new.19ced7cb30085b2fae30.mp4",
-    "static/media/mashup.mp4": "/static/media/mashup.6e7ebbff53330df3cb19.mp4",
-    "static/media/mashup 3.mp4": "/static/media/mashup 3.dd83c365966eb49be26b.mp4",
-    "static/media/new2.mp3": "/static/media/new2.9bfd5dea3c62550adaef.mp3",
-    "static/media/neww.mp3": "/static/media/neww.846f0deb57e14c6c34b7.mp3",
-    "static/media/heart.png": "/static/media/heart.0262b93674f1964e9a73.png",
-    "static/media/balloon.png": "/static/media/balloon.5e6890ecb2cd11fbde6a.png",
-    "static/media/bg3.png": "/static/media/bg3.cbe0f618bada27e1056f.png",
-    "static/media/bg2.jpg": "/static/media/bg2.b0960ffdf570a6e7a715.jpg",
-    "static/media/bg1.jpg": "/static/media/bg1.7c44acac37fd80a24d2f.jpg",
-    "index.html": "/index.html",
-    "main.3b1be13d.css.map": "/static/css/main.3b1be13d.css.map",
-    "main.1f12c970.js.map": "/static/js/main.1f12c970.js.map"
+    "main.css": "/tanuja-birthday/static/css/main.82d484fb.css",
+    "main.js": "/tanuja-birthday/static/js/main.c23a701c.js",
+    "static/media/mashup new.mp4": "/tanuja-birthday/static/media/mashup new.19ced7cb30085b2fae30.mp4",
+    "static/media/mashup.mp4": "/tanuja-birthday/static/media/mashup.6e7ebbff53330df3cb19.mp4",
+    "static/media/mashup 3.mp4": "/tanuja-birthday/static/media/mashup 3.dd83c365966eb49be26b.mp4",
+    "static/media/new2.mp3": "/tanuja-birthday/static/media/new2.9bfd5dea3c62550adaef.mp3",
+    "static/media/neww.mp3": "/tanuja-birthday/static/media/neww.846f0deb57e14c6c34b7.mp3",
+    "static/media/heart.png": "/tanuja-birthday/static/media/heart.0262b93674f1964e9a73.png",
+    "static/media/balloon.png": "/tanuja-birthday/static/media/balloon.5e6890ecb2cd11fbde6a.png",
+    "static/media/bg3.png": "/tanuja-birthday/static/media/bg3.cbe0f618bada27e1056f.png",
+    "static/media/bg2.jpg": "/tanuja-birthday/static/media/bg2.b0960ffdf570a6e7a715.jpg",
+    "static/media/bg1.jpg": "/tanuja-birthday/static/media/bg1.7c44acac37fd80a24d2f.jpg",
+    "index.html": "/tanuja-birthday/index.html",
+    "main.82d484fb.css.map": "/tanuja-birthday/static/css/main.82d484fb.css.map",
+    "main.c23a701c.js.map": "/tanuja-birthday/static/js/main.c23a701c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b1be13d.css",
-    "static/js/main.1f12c970.js"
+    "static/css/main.82d484fb.css",
+    "static/js/main.c23a701c.js"
   ]
 }
