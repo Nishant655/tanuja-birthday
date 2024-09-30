@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tanuja-birthday/static/css/main.82d484fb.css",
-    "main.js": "/tanuja-birthday/static/js/main.4a004c64.js",
+    "main.css": "/tanuja-birthday/static/css/main.559d1166.css",
+    "main.js": "/tanuja-birthday/static/js/main.6851c4fd.js",
     "static/media/mashup new.mp4": "/tanuja-birthday/static/media/mashup new.19ced7cb30085b2fae30.mp4",
     "static/media/mashup.mp4": "/tanuja-birthday/static/media/mashup.6e7ebbff53330df3cb19.mp4",
     "static/media/mashup 3.mp4": "/tanuja-birthday/static/media/mashup 3.dd83c365966eb49be26b.mp4",
@@ -13,11 +13,11 @@
     "static/media/bg2.jpg": "/tanuja-birthday/static/media/bg2.b0960ffdf570a6e7a715.jpg",
     "static/media/bg1.jpg": "/tanuja-birthday/static/media/bg1.7c44acac37fd80a24d2f.jpg",
     "index.html": "/tanuja-birthday/index.html",
-    "main.82d484fb.css.map": "/tanuja-birthday/static/css/main.82d484fb.css.map",
-    "main.4a004c64.js.map": "/tanuja-birthday/static/js/main.4a004c64.js.map"
+    "main.559d1166.css.map": "/tanuja-birthday/static/css/main.559d1166.css.map",
+    "main.6851c4fd.js.map": "/tanuja-birthday/static/js/main.6851c4fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d484fb.css",
-    "static/js/main.4a004c64.js"
+    "static/css/main.559d1166.css",
+    "static/js/main.6851c4fd.js"
   ]
 }
