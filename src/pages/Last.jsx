@@ -6,6 +6,7 @@ import mashupnew from '../assets/mashup new.mp4';
 import mashup3 from '../assets/mashup 3.mp4';
 
 const LastPage = () => {
+ 
   return (
     <div className="LastPageContainer" style={{ backgroundColor: '#ffe6cc' }}>
       <p className="ThankYouParagraph">
@@ -29,10 +30,11 @@ const LastPage = () => {
         uff yeh mere mehenge khwaab.... <br /><br />
         <br /> Anyways BUBYEEEEEE the end of mera likhna and website too  ✨<br />
         WILL BE WAITINGGGG
-        <span><br />And haa at last yeh kuch 1 2 mashups try kiya hai maine banane ka if tumhe pasand aaye sun ke accha lage toh badhiya h dekh lo sun lo aaaram se</span></p>
+        <span><br />And haa at last yeh kuch 1 2 mashups try kiya hai maine banane ka if tumhe pasand aaye sun ke accha lage toh badhiya h dekh lo sun lo aaaram se</span>
+      </p>
 
       <div className="audio">      
-         <AudioPlayer
+        <AudioPlayer
           src={mashup}
           controls
           className="audio-player"
@@ -49,7 +51,7 @@ const LastPage = () => {
         />
         <br />
       </div>
-    </div>
+</div>
   );
 };
 

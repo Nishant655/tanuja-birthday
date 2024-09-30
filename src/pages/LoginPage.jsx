@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css'; // Import the CSS file
 
-const defaultName = 'nish';
-const defaultPassword = '1234';
+const defaultName = 'Tanuja';
+const defaultPassword = '29/09/2003';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -42,7 +42,7 @@ const LoginPage = () => {
       }, 1000); // Add a delay to see the "Login successful!" message
 
       // Display a successful message
-    //   setError('Login successful! You will be redirected to the dashboard.');
+      // setError('Login successful! You will be redirected to the dashboard.');
     } else {
       setError('Invalid name or password');
     }
@@ -58,25 +58,33 @@ const LoginPage = () => {
 
   return (
     <div className="login-page">
-    <div className="login-container">
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <label>
-          Name:</label>
-          <input type="text" value={name} onChange={handleNameChange} placeholder='Enter your Name' />
-        
-        <br />
-        <label>
-          Password:  </label>
-          <input type="password" value={password} onChange={handlePasswordChange} placeholder='Enter Password' />
-      
-        <br />
-        <button className="login-button" type="submit">Login</button>
-        {error && <div style={{ color: 'red' }}>{error}</div>}
-        {loginSuccess && <div style={{ color: 'green' }}>Login successful!</div>}
-      </form>
+      <div className="login-container">
+        <h2>Login</h2>
+        <form onSubmit={handleLogin}>
+          <label>Name:</label>
+          <input
+            type="text"
+            value={name}
+            onChange={handleNameChange}
+            placeholder='Enter your Name'
+          />
+          
+          <br />
+          <label>Password:</label>
+          <input
+            type="password"
+            value={password}
+            onChange={handlePasswordChange}
+            placeholder='Enter Password'
+          />
+          
+          <br />
+          <button className="login-button" type="submit">Login</button>
+          {error && <div style={{ color: 'red' }}>{error}</div>}
+          {loginSuccess && <div style={{ color: 'green' }}>Login successful!</div>}
+        </form>
+      </div>
     </div>
-  </div>
   );
 };
 

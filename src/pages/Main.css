@@ -23,6 +23,12 @@ html, body {
   justify-content: flex-start; /* Ensure content starts at the top */
 }
 
+hr {
+  background-color: black;
+  height: 2px;
+  border: none;
+}
+
 /* Rest of the CSS remains the same */
 .section1 {
   margin-top: 20%;
